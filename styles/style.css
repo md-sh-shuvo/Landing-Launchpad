@@ -209,6 +209,8 @@ form label{
     margin-bottom: 10px;
 }
 form input, form textarea{
+    font-size: 20px;
+    font-weight: normal;
     padding: 20px;
     margin-bottom: 20px;
     border: 1px solid rgba(154, 189, 202, 0.804);
@@ -221,6 +223,14 @@ form textarea{
 input::placeholder, textarea::placeholder{
     font-size: 20px;
     font-weight: normal;
+}
+/* textarea::placeholder{
+    line-height: 0.8;
+} */
+
+input:focus, textarea:focus{
+    outline: 2px solid #4E47FF;
+    outline-offset: 2px;
 }
 
 .submit-btn{
