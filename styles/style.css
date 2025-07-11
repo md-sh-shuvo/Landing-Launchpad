@@ -32,10 +32,11 @@
 }
 .btn-primary:hover{
     background-color: orange;
+    color: black;
 }
 
 .bg-color{
-    background-color: rgba(0, 0, 0, 0.05);
+    background: linear-gradient(white, #D6DDED)
 }
 
 /* header */
@@ -152,7 +153,7 @@ main{
 }
 .card{
     background-color: rgba(255, 255, 255, 0.5);
-    border: 2px solid rgba(147, 139, 139, 0.19);
+    border: 2px solid rgba(147, 139, 139, 0.29);
     border-radius: 14px;
     padding: 24px;
 }
